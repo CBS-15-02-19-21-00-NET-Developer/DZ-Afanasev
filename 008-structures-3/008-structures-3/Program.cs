@@ -19,7 +19,7 @@ namespace _008_structures_3
     {
         djun = 240,
         midl = 160,
-        senjor = 100
+        senjor = 100 
     }
 
     class Accountant
