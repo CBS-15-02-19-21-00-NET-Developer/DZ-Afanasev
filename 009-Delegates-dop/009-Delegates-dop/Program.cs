@@ -16,6 +16,6 @@ namespace _009_Delegates_dop
         }
     }
 
-    public delegate int MyDelegate(int a, int b, int c);
+    public delegate int MyDelegate(int a, int b, int c); 
     // делегат принимает 3 интовых значения и выдает инт (можно поменять на дробное, если нужна точность)
 }
