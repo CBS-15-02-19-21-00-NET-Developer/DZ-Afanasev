@@ -23,7 +23,7 @@ namespace Collection
             arrayList.Add('k');
             arrayList.Add(new MyClass());            
 
-            for (int i = 0; i < arrayList.Count; i++)
+            for (int i = 0; i < arrayList.Count; i++) 
                 //Console.WriteLine((object)arrayList[i]);
                 Console.WriteLine(arrayList[i]);
 
