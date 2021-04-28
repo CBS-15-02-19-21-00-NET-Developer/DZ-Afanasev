@@ -1,0 +1,36 @@
+﻿table
+стол
+apple
+яблоко
+hi
+привет
+sorry
+извини(те)
+please
+пожалуйста (прошу)
+man
+мужчина
+woman
+женщина
+child
+ребенок
+father
+отец
+mother
+мать
+job
+работа
+create
+создавать
+compile
+компилировать
+debugger
+отладчик
+database
+база данных
+query
+запрос
+array
+массив
+domain
+домен
