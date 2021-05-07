@@ -1,0 +1,24 @@
+﻿<Window x:Class="Pr_3_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pr_3_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="485" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="24,34,0,0" Text="c:\windows" TextWrapping="Wrap" VerticalAlignment="Top" Width="750" TextChanged="TextBox_TextChanged" Name="dir"/>
+
+        <Button Content="Искать" HorizontalAlignment="Left" Height="28" Margin="24,396,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
+        <TextBox Text="имя файла" TextWrapping="Wrap" Margin="24,94,415,330" TextChanged="TextBox_nameF_TextChanged" Name="nameF"/>
+        <ListBox HorizontalAlignment="Left" Height="190" Margin="24,179,0,0" VerticalAlignment="Top" Width="361" x:Name="listBox" SelectionChanged="listBox_SelectionChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="249" Margin="435,120,0,0" Text="Файл не выбран" TextWrapping="Wrap" VerticalAlignment="Top" Width="312" Name="view"/>
+        <Label Content="В какой папке искать:" HorizontalAlignment="Left" Height="24" Margin="24,10,0,0" VerticalAlignment="Top" Width="210"/>
+        <Label Content="Имя файла для поиска (можно часть)" HorizontalAlignment="Left" Height="24" Margin="24,67,0,0" VerticalAlignment="Top" Width="284"/>
+        <Label Content="Найдены файлы" HorizontalAlignment="Left" Height="24" Margin="24,150,0,0" VerticalAlignment="Top" Width="284"/>
+        <Label Content="Содержимое файла" HorizontalAlignment="Left" Height="24" Margin="435,79,0,0" VerticalAlignment="Top" Width="284"/>
+        <Button Content="Заархивировать" HorizontalAlignment="Left" Margin="188,396,0,0" VerticalAlignment="Top" Height="30" Width="108" Click="Button_Click_1"/>
+
+
+    </Grid>
+</Window>
